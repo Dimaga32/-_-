@@ -1,0 +1,17 @@
+.loader{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 15px solid rgb(198, 255, 255);
+    border-top: 15px solid aqua;
+    animation: rotate 3s infinite linear;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
