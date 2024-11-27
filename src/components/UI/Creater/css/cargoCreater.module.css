@@ -1,0 +1,32 @@
+.modal{
+    position: fixed;
+    top: 35vh;
+    bottom: 20vw;
+    display: none;
+    width: 60vw;
+    height: 30vh;
+    border: 1px solid black;
+}
+.modalactive{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 10px;
+}
+.button {
+    width: 5vw !important; /* Заполняет всю ширину ячейки */
+    height: 5vw !important; /* Заполняет всю высоту ячейки */
+    border: 0px !important; /* Убирает рамку кнопки для соответствия */
+    margin: 0px; /* Убираем внешние отступы кнопки */
+    padding: 0; /* Убираем внутренние отступы кнопки */
+    border-collapse: collapse;
+    box-sizing: border-box !important; /* Учитывает padding и border в размере */
+    background-color: rgba(255, 0, 0, 0.5);
+    float: right;
+}
+.flex{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column
+}
