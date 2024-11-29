@@ -6,6 +6,7 @@ const Input1 = forwardRef((props, ref) => {
 
   return (
     <input
+      ref={ref}
       onChange={props.Change}
       type="text"
       className={`form-control text-center ${className || ""}`} 
